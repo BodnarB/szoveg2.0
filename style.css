@@ -10,6 +10,9 @@ textarea {
     display: block;
     margin: 0.5rem auto;
     border-radius: 0.2rem;
+    border: none;
+    max-width: 100%;
+    min-width: fit-content;
 }
 
 .input-textarea {
@@ -23,9 +26,9 @@ textarea {
 }
 
 .team-textarea {
-    min-height: 110px;
+    min-height: 150px;
     width: 100%;
-    field-sizing: content
+    field-sizing: content;
 }
 
 .basic-text {
@@ -57,4 +60,9 @@ textarea {
     border-radius: 0.2rem;
     border: none;
     cursor: pointer;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: space-between;
 }
