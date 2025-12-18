@@ -2,14 +2,7 @@ let teamH = document.querySelector('#team-home')
 let teamG = document.querySelector('#team-guest')
 let inputText = document.querySelector('#input-text')
 let finalText = document.querySelector('#final-text')
-
-inputText.addEventListener('input', () => {
-    console.log(inputText.value)
-    finalText.value=inputText.value
-})
-
-
-
+let copyBtn = document.querySelector('.copy-btn')
 
 let csapatok = {
     home: {
@@ -58,3 +51,56 @@ let csapatok = {
         98: "Patryk Krezolek"
     }
 }
+
+function formatTeamToText(teamObj) {
+    return Object.entries(teamObj)
+        .map(([szam, nev]) => `${szam} - ${nev}`)
+        .join('\n')
+}
+
+teamH.value = formatTeamToText(csapatok.home)
+teamG.value = formatTeamToText(csapatok.guest)
+
+function getTeamFromTextarea(textarea) {
+    const lines = textarea.value.split('\n')
+    const teamObj = {}
+    lines.forEach(line => {
+        const match = line.match(/^\s*(\d+)[ \-\t\.]*(.*)/)
+        if (match) {
+            const number = match[1]
+            const name = match[2].trim()
+            if (name) teamObj[number] = name
+        }
+    })
+    return teamObj
+}
+
+inputText.addEventListener('input', () => {
+    let text = inputText.value
+    const currentHome = getTeamFromTextarea(teamH)
+    const currentGuest = getTeamFromTextarea(teamG)
+
+    let newText = text.replace(/(\d{1,2})([hg])/g, (match, mezszam, csapat) => {
+        const aktualisCsapat = (csapat === 'h') ? currentHome : currentGuest
+        return aktualisCsapat[mezszam] || match
+    })
+
+    finalText.value = newText
+})
+
+copyBtn.addEventListener('click', () => {
+
+    navigator.clipboard.writeText(finalText.value).then(() => {
+        let originalText = copyBtn.innerText
+        copyBtn.innerText = 'Másolva!'
+        copyBtn.classList.add('copied') // Adhatsz neki külön stílust CSS-ben
+
+        setTimeout(() => {
+            copyBtn.innerText = originalText
+        }, 1100)
+    }).catch(err => {
+        console.error('Hiba a másolás során: ', err)
+        alert('Sajnos nem sikerült a másolás.')
+    })
+})
+
