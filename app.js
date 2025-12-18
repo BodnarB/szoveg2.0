@@ -3,6 +3,16 @@ let teamG = document.querySelector('#team-guest')
 let inputText = document.querySelector('#input-text')
 let finalText = document.querySelector('#final-text')
 let copyBtn = document.querySelector('.copy-btn')
+let resetBtn = document.querySelector('.reset-btn')
+
+let defaultText = `X, az MTK (b) és Y, az Újpest játékosa a labdarúgó Fizz Liga 17. fordulójában játszott MTK Budapest - Újpest FC mérkőzésen az Új Hidegkuti Nándor Stadionban  2025. december 13-án.`
+
+inputText.value = defaultText
+
+resetBtn.addEventListener('click', () => {
+    inputText.value = defaultText
+    inputText.dispatchEvent(new Event('input'))
+})
 
 let csapatok = {
     home: {
