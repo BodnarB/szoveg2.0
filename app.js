@@ -88,19 +88,18 @@ inputText.addEventListener('input', () => {
     finalText.value = newText
 })
 
+teamH.addEventListener('input', () => inputText.dispatchEvent(new Event('input')))
+teamG.addEventListener('input', () => inputText.dispatchEvent(new Event('input')))
+
 copyBtn.addEventListener('click', () => {
 
     navigator.clipboard.writeText(finalText.value).then(() => {
         let originalText = copyBtn.innerText
         copyBtn.innerText = 'Másolva!'
-        copyBtn.classList.add('copied') // Adhatsz neki külön stílust CSS-ben
 
         setTimeout(() => {
             copyBtn.innerText = originalText
         }, 1100)
-    }).catch(err => {
-        console.error('Hiba a másolás során: ', err)
-        alert('Sajnos nem sikerült a másolás.')
     })
 })
 
