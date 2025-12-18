@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szövegezés 2.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class='textarea-div'>
+            <textarea class='input-textarea' placeholder='input' name="input-text" id="input-text"></textarea>
+            <textarea class='input-textarea' placeholder='final text' name="final-text" id="final-text"></textarea>
+        </div>
+
+        <div class='textarea-div team-div'>
+            <div class='team-subdiv'>
+                <p class='basic-text'>Home team</p>
+                <textarea class='team-textarea' placeholder='home team' name="team-home" id="team-home"></textarea>
+            </div>
+            <div class='team-subdiv'>
+                <p class='basic-text'>Guest team</p>
+                <textarea class='team-textarea' placeholder='guest team' name="team-guest" id="team-guest"></textarea>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>

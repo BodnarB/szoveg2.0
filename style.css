@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(42, 42, 42);
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+textarea {
+    padding: 0.5rem;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.input-textarea {
+    width: 100%;
+    min-height: 160px;
+}
+
+.textarea-div {
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.team-textarea {
+    min-height: 110px;
+    width: 100%;
+}
+
+.basic-text {
+    color: rgb(225, 225, 225);
+    margin: 0.3rem 0;
+}
+
+.team-subdiv {
+width: 50%;
+}
+
+.team-div {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
