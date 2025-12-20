@@ -5,7 +5,7 @@ let finalText = document.querySelector('#final-text')
 let copyBtn = document.querySelector('.copy-btn')
 let resetBtn = document.querySelector('.reset-btn')
 
-let defaultText = `X, az MTK (b) és Y, az Újpest játékosa a labdarúgó Fizz Liga 17. fordulójában játszott MTK Budapest - Újpest FC mérkőzésen az Új Hidegkuti Nándor Stadionban  2025. december 13-án.`
+let defaultText = `X (j) és az olasz Y a Magyarország - Olaszország felkészülési vízilabda-mérkőzésen a Komjádi Uszodában 2025. december 20-án.`
 
 inputText.value = defaultText
 
