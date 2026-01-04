@@ -5,7 +5,7 @@ let finalText = document.querySelector('#final-text')
 let copyBtn = document.querySelector('.copy-btn')
 let resetBtn = document.querySelector('.reset-btn')
 
-let defaultText = `X, az FTC-Telekom (b) és Y, a Hydro Fehérvár AV19 játékosa a férfi jégkorong osztrák liga FTC-Telekom - Hydro Fehérvár AV19 mérkőzésén a budapesti Tüskecsarnokban 2026. január 3-án.`
+let defaultText = `X, a Ferencváros (b) és Y, a Dunaújváros játékosa a női kézilabda NB I-ben játszott FTC-Rail Cargo Hungaria - Dunaújvárosi Kohász KA mérkőzésen a fővárosi Elek Gyula Arénában 2026. január 4-én.`
 
 inputText.value = defaultText
 
@@ -16,58 +16,34 @@ resetBtn.addEventListener('click', () => {
 
 let csapatok = {
     home: {
-        1: "Bálizs Bence",
-        5: "Farkas Boldizsár",
-        7: "Jesper Lindgren",
-        11: "Topi Rönni",
-        12: "Brady Shaw",
-        13: "Nagy Krisztián",
-        14: "Molnár Dávid",
-        17: "Mihalik András",
-        18: "Mattyasovszky Gergely",
-        19: "Alexander Ytterell",
-        20: "Sofron István",
-        21: "Tyler Coulter",
-        22: "Horváth Milán",
-        23: "Hadobás Zétény",
-        25: "Aku Kestila",
-        27: "Seregély Máté",
-        30: "Nagy Kristóf",
-        44: "Paavo Tyni",
-        52: "Rasmus Bengtsson",
-        59: "Arany Gergely",
-        61: "Tóth Richárd",
-        77: "Tóth Gergely",
-        92: "Jussi Tammela",
-        93: "Laskawy Ferenc",
-        94: "Galajda Zsombor"
+        1: "Laura Glauser",
+        11: "Darja Dmitrijeva",
+        13: "Janurik Kinga",
+        15: "Hársfalvi Júlia",
+        16: "Böde-Bíró Blanka",
+        18: "Mette Tranborg",
+        20: "Emily Vogel",
+        21: "Márton Gréta",
+        22: "Orlane Kanor",
+        26: "Angela Malestein",
+        38: "Simon Petra",
+        41: "Balázs Bítia",
+        42: "Klujber Katrin",
+        51: "Vilde Mortensen Ingstad",
+        58: "Bordás Réka",
+        72: "Dragana Cvijic"
     },
     guest: {
-        3: "Varga Balázs",
-        5: "Stipsicz Bence",
-        7: "Martin Stajnoch",
-        10: "Bartalis István",
-        13: "Németh Kristóf",
-        16: "Hári János",
-        17: "Kiss Roland",
-        18: "Justin Richards",
-        21: "Falus ÁdÁm",
-        26: "Rasmus Kulmala",
-        34: "Terbócs István",
-        35: "Horváth Dominik",
-        36: "Erdély Csanád",
-        39: "Trevor Cheek",
-        45: "Rasmus Reijola",
-        47: "Ambrus Csongor",
-        51: "Tim Campbell",
-        59: "Joel Messner",
-        67: "Horváth Donát",
-        79: "Ole Einar Andersen",
-        82: "Magosi Bálint",
-        86: "Drake Rymsha",
-        90: "Darren Archibald",
-        92: "Anze Kuralt",
-        93: "Mihály Ákos"
+        1: "Krasznai Júlia",
+        5: "Szalai Petra",
+        15: "Török Fanni",
+        19: "Győri Alexa",
+        21: "Horváth Anna",
+        26: "Dobos Hanna",
+        44: "Kerekes Laura",
+        67: "Sztanó Kincső",
+        89: "Fehér Luca",
+        91: "Gajdos Petra"
     }
 }
 
