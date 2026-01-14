@@ -5,7 +5,7 @@ let finalText = document.querySelector('#final-text')
 let copyBtn = document.querySelector('.copy-btn')
 let resetBtn = document.querySelector('.reset-btn')
 
-let defaultText = `X, a Ferencváros (b) és Y, a Dunaújváros játékosa a női kézilabda NB I-ben játszott FTC-Rail Cargo Hungaria - Dunaújvárosi Kohász KA mérkőzésen a fővárosi Elek Gyula Arénában 2026. január 4-én.`
+let defaultText = `XY (b) és a máltai XY a belgrádi férfi vízilabda Európa-bajnokság A csoportjának harmadik fordulójában játszott Málta - Magyarország mérkőzésen a Belgrade Arenában 2026. január 14-én.`
 
 inputText.value = defaultText
 
@@ -16,34 +16,37 @@ resetBtn.addEventListener('click', () => {
 
 let csapatok = {
     home: {
-        1: "Laura Glauser",
-        11: "Darja Dmitrijeva",
-        13: "Janurik Kinga",
-        15: "Hársfalvi Júlia",
-        16: "Böde-Bíró Blanka",
-        18: "Mette Tranborg",
-        20: "Emily Vogel",
-        21: "Márton Gréta",
-        22: "Orlane Kanor",
-        26: "Angela Malestein",
-        38: "Simon Petra",
-        41: "Balázs Bítia",
-        42: "Klujber Katrin",
-        51: "Vilde Mortensen Ingstad",
-        58: "Bordás Réka",
-        72: "Dragana Cvijic"
+        1: "Csoma Kristóf",
+        2: "Angyal Dániel",
+        3: "Manhercz Krisztián",
+        4: "Nagy Ákos",
+        5: "Vigvári Vince",
+        6: "Nagy Ádám",
+        7: "Fekete Gergő",
+        8: "Tátrai Dávid",
+        9: "Kovács Péter",
+        10: "Vigvári Vendel",
+        11: "Jansik Szilárd",
+        12: "Batizi Benedek",
+        13: "Vogel Soma",
+        14: "Vismeg Zsombor",
+        15: "Varga Vince"
     },
     guest: {
-        1: "Krasznai Júlia",
-        5: "Szalai Petra",
-        15: "Török Fanni",
-        19: "Győri Alexa",
-        21: "Horváth Anna",
-        26: "Dobos Hanna",
-        44: "Kerekes Laura",
-        67: "Sztanó Kincső",
-        89: "Fehér Luca",
-        91: "Gajdos Petra"
+        1: "Jake Tanti",
+        2: "Ivan Sergeevich Nagaev",
+        3: "Liam Galea",
+        4: "Ben Plumpton",
+        5: "Benjamin Cachia",
+        6: "Matthew Zammit",
+        7: "Steven Camilleri",
+        8: "Jayden Cutajar",
+        10: "Nikolai Zammit",
+        11: "Darren Zammit",
+        12: "Alec Fenech",
+        13: "Nicholas Kane Grixti",
+        14: "Elijah Schembri",
+        15: "Jake Bonavia"
     }
 }
 
