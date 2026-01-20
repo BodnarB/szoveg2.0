@@ -5,7 +5,7 @@ let finalText = document.querySelector('#final-text')
 let copyBtn = document.querySelector('.copy-btn')
 let resetBtn = document.querySelector('.reset-btn')
 
-let defaultText = `XY (b) és a máltai XY a belgrádi férfi vízilabda Európa-bajnokság A csoportjának harmadik fordulójában játszott Málta - Magyarország mérkőzésen a Belgrade Arenában 2026. január 14-én.`
+let defaultText = `Xh (b) és a spanyol Xg a belgrádi férfi vízilabda Európa-bajnokság középdöntőjének E csoportjában játszott Spanyolország - Magyarország mérkőzésén a Belgrade Arenában 2026. január 20-án.`
 
 inputText.value = defaultText
 
@@ -33,20 +33,21 @@ let csapatok = {
         15: "Varga Vince"
     },
     guest: {
-        1: "Jake Tanti",
-        2: "Ivan Sergeevich Nagaev",
-        3: "Liam Galea",
-        4: "Ben Plumpton",
-        5: "Benjamin Cachia",
-        6: "Matthew Zammit",
-        7: "Steven Camilleri",
-        8: "Jayden Cutajar",
-        10: "Nikolai Zammit",
-        11: "Darren Zammit",
-        12: "Alec Fenech",
-        13: "Nicholas Kane Grixti",
-        14: "Elijah Schembri",
-        15: "Jake Bonavia"
+        1: "Unai Aguirre",
+        2: "Alberto Munarriz",
+        3: "Alvaro Granados",
+        4: "Bernat Sanahuja",
+        5: "Miguel de Toro",
+        6: "Marc Larumbe",
+        7: "Pol Daura Gomez",
+        8: "Sergi Cabanas",
+        9: "Roger Tahull",
+        10: "Francisco Valera",
+        11: "Unai Biel Lara",
+        12: "Alejandro Bustos",
+        13: "Eduardo Lorrio",
+        14: "Oscar Asensio",
+        15: "Biel Gomila"
     }
 }
 
