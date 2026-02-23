@@ -5,7 +5,7 @@ let finalText = document.querySelector('#final-text')
 let copyBtn = document.querySelector('.copy-btn')
 let resetBtn = document.querySelector('.reset-btn')
 
-let defaultText = `Xh (b) és a spanyol Xg a belgrádi férfi vízilabda Európa-bajnokság középdöntőjének E csoportjában játszott Spanyolország - Magyarország mérkőzésén a Belgrade Arenában 2026. január 20-án.`
+let defaultText = `Xh, az MTK (b) és Yg, a Ferencváros játékosa a labdarúgó Fizz Liga 23. fordulójában játszott MTK Budapest - Ferencvárosi TC mérkőzésen az Új Hidegkuti Nándor Stadionban 2026. február 23-án.`
 
 inputText.value = defaultText
 
@@ -16,38 +16,69 @@ resetBtn.addEventListener('click', () => {
 
 let csapatok = {
     home: {
-        1: "Csoma Kristóf",
-        2: "Angyal Dániel",
-        3: "Manhercz Krisztián",
-        4: "Nagy Ákos",
-        5: "Vigvári Vince",
-        6: "Nagy Ádám",
-        7: "Fekete Gergő",
-        8: "Tátrai Dávid",
-        9: "Kovács Péter",
-        10: "Vigvári Vendel",
-        11: "Jansik Szilárd",
-        12: "Batizi Benedek",
-        13: "Vogel Soma",
-        14: "Vismeg Zsombor",
-        15: "Varga Vince"
+        2: "Varju Benedek",
+        3: "Szépe János",
+        4: "Ilia Beriashvili",
+        6: "Kata Mihály",
+        7: "Molnár Ádin",
+        8: "Németh Hunor",
+        10: "Bognár István",
+        11: "Marin Jurina",
+        12: "Bene Domonkos",
+        14: "Horváth Artúr",
+        15: "Széles Imre",
+        17: "Róbert Polievka",
+        18: "Németh Krisztián",
+        20: "Kerezsi Zalán",
+        21: "Átrok István",
+        23: "Jakub Plsek",
+        24: "Fadgyas Tamás",
+        25: "Kádár Tamás",
+        26: "Vilius Armalas",
+        27: "Kovács Patrik",
+        29: "Balázs József",
+        30: "Vitályos Viktor",
+        39: "Jurek Gábor",
+        47: "Hegyi Krisztián",
+        80: "Adrian Zeljkovic"
     },
     guest: {
-        1: "Unai Aguirre",
-        2: "Alberto Munarriz",
-        3: "Alvaro Granados",
-        4: "Bernat Sanahuja",
-        5: "Miguel de Toro",
-        6: "Marc Larumbe",
-        7: "Pol Daura Gomez",
-        8: "Sergi Cabanas",
-        9: "Roger Tahull",
-        10: "Francisco Valera",
-        11: "Unai Biel Lara",
-        12: "Alejandro Bustos",
-        13: "Eduardo Lorrio",
-        14: "Oscar Asensio",
-        15: "Biel Gomila"
+        1: "Varga Ádám",
+        3: "Stefan Gartenmann",
+        4: "Mariano Gómez",
+        5: "Naby Keita",
+        7: "Elton Acolatse",
+        8: "Aleksandar Pesic",
+        10: "Jonathan Levi",
+        11: "Bamidele Yusuf",
+        14: "Osváth Attila",
+        15: "Mohammed Abu Fani",
+        16: "Kristoffer Zachariassen",
+        17: "Corbu Máriusz",
+        19: "Franko Kovacevic",
+        20: "Cadu",
+        21: "Botka Endre",
+        22: "Szalai Gábor",
+        23: "Ötvös Bence",
+        25: "Cebrail Makreckis",
+        27: "Ibrahim Cissé",
+        28: "Toon Raemaekers",
+        29: "Szécsi Gergő",
+        30: "Gruber Zsombor",
+        36: "Gavriel Kanikovszki",
+        47: "Callum O'Dowda",
+        62: "Gólik Benjámin",
+        63: "Radnóti Dániel",
+        66: "Júlio Romao",
+        71: "Lakatos Csongor",
+        72: "Madarász Ádám",
+        75: "Lenny Joseph",
+        76: "Lisztes Krisztián",
+        77: "Nagy Barnabás",
+        80: "Habib Maiga",
+        88: "Philippe Rommens",
+        90: "Dibusz Dénes",
+        99: "Gróf Dávid"
     }
 }
 
