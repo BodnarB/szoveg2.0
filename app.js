@@ -5,7 +5,7 @@ let finalText = document.querySelector('#final-text')
 let copyBtn = document.querySelector('.copy-btn')
 let resetBtn = document.querySelector('.reset-btn')
 
-let defaultText = `Xh, a Ferencváros (b) és Yg, a Borussia Dortmund játékosa a női kézilabda Bajnokok Ligája negyeddöntőbe jutásért játszott FTC-Rail Cargo Hungaria - Borussia Dortmund visszavágó mérkőzésen az Érd Arénában 2026. március 28-án. `
+let defaultText = `Xh (b) és az ukrán Yg a labdarúgó U21-es Európa-bajnokság selejtezőjének H csoportjában játszott Magyarország - Ukrajna mérkőzésen az Új Hidegkuti Nándor Stadionban 2026. március 31-én. `
 
 inputText.value = defaultText
 
@@ -16,36 +16,54 @@ resetBtn.addEventListener('click', () => {
 
 let csapatok = {
     home: {
-        1: "Laura Glauser",
-        11: "Daria Dmitrieva",
-        15: "Hársfalvi Júlia",
-        16: "Böde-Bíró Blanka",
-        18: "Mette Tranborg",
-        21: "Márton Gréta",
-        26: "Antje Angela Malestein",
-        38: "Simon Petra Anna",
-        41: "Balázs Bítia",
-        42: "Klujber Katrin Gitta",
-        49: "Szeibert Anna Rebeka",
-        51: "Vilde Mortensen Ingstad",
-        58: "Bordás Réka",
-        72: "Dragana Cvijic"
+        1: "Pécsi Ármin",
+        2: "Yaakobishvili Antal",
+        3: "Markgráf Ákos",
+        4: "Fenyő Noah",
+        5: "Dragóner Áron",
+        6: "Tóth Rajmund",
+        7: "Vajda Botond",
+        8: "Horváth Kevin",
+        9: "Klausz Milán",
+        10: "Vancsa Zalán",
+        11: "Molnár Ádin",
+        12: "Erdélyi Benedek",
+        13: "Kovács Patrik",
+        14: "Bodnár János",
+        15: "Bíró Barnabás",
+        16: "Lakatos Csongor",
+        17: "Dénes Csanád Vilmos",
+        18: "Krajcsovics Ábel György",
+        19: "Gruber Zsombor",
+        20: "Tuboly Máté",
+        21: "Átrok István",
+        22: "Lehoczki Bendegúz",
+        23: "Bánáti Kevin"
     },
     guest: {
-        1: "Teodora Roncevic",
-        4: "Alina Grijseels",
-        7: "Szikora Melinda",
-        8: "Maraike Kusian",
-        9: "Lisa Antl",
-        17: "Alicia Langer",
-        21: "Kaja Kamp Nielsen",
-        22: "Déborah Lassource",
-        24: "Guro Berland Husebo",
-        29: "Emma Olsson",
-        31: "Kelly Vollebregt",
-        33: "Guro Nestaker",
-        44: "Lara Egeling",
-        66: "Dana Bleckmann"
+        1: "Vladiszlav Krapivcov",
+        2: "Illja Krupszkij",
+        3: "Bohdan Redusko",
+        4: "Vladiszlav Kiszil",
+        5: "Olekszij Guszijev",
+        6: "Ivan Varfolomiejev",
+        7: "Danilo Krevszun",
+        8: "Makszim Melnicsenko",
+        9: "Artem Sztepanov",
+        10: "Hennagyij Szincsuk",
+        11: "Timur Tutjerov",
+        12: "Ivan Paholijuk",
+        13: "Vladiszlav Zaharcsenko",
+        14: "Volodimir Vilivald",
+        15: "Danijil Vascsenko",
+        16: "Jevhenij Pasztuh",
+        17: "Oleh Fedor",
+        18: "Anton Hluscsenko",
+        19: "Olekszandr Piscsur",
+        20: "Anton Carenko",
+        21: "Artem Huszol",
+        22: "Szerhij Kornijcsuk",
+        23: "Illja Popovics"
     }
 }
 
