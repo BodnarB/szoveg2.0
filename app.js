@@ -5,7 +5,7 @@ let finalText = document.querySelector('#final-text')
 let copyBtn = document.querySelector('.copy-btn')
 let resetBtn = document.querySelector('.reset-btn')
 
-let defaultText = `Xh, az Újpest (j) és Yg, az MTK játékosa a labdarúgó Fizz Liga 28. fordulójában játszott Újpest FC - MTK Budapest mérkőzésen a Szusza Ferenc Stadionban 2026. április 4-én. `
+let defaultText = `Xh (b) és a cseh Yg a női kézilabda Eurokupa hatodik, utolsó fordulójában játszott Magyarország - Csehország mérkőzésen az Érd Arénában 2026. április 11-én. `
 
 inputText.value = defaultText
 
@@ -16,62 +16,45 @@ resetBtn.addEventListener('click', () => {
 
 let csapatok = {
     home: {
-        1: "Riccardo Piscitelli",
-        2: "Bodnár Gergő",
-        5: "Daviti Kobouri",
-        7: "Giorgi Beridze",
-        8: "Arijan Ademi",
-        9: "Fran Brodic",
-        10: "Arne Maier",
-        11: "Horváth Krisztofer",
-        15: "Mucsányi Miron",
-        17: "Aljosa Matko",
-        18: "Tom Lacoux",
-        19: "Nejc Gradisar",
-        23: "Banai Dávid",
-        25: "Katona Benedek",
-        27: "Krajcsovics Ábel",
-        30: "Joao Nunes",
-        31: "Dombó Dávid",
-        33: "Bese Barnabás",
-        34: "Milan Tucic",
-        38: "Sarkadi Kristóf",
-        39: "Gleofilo Vlijter",
-        44: "Gergényi Bence",
-        45: "Iuri Medeiros",
-        55: "Fiola Attila",
-        74: "Kaczvinszki Dominik",
-        77: "Fenyő Noah",
-        85: "Szentmihályi Ádám",
-        88: "Matija Ljujic",
-        94: "Patrizio Stronati"
+        4: "Tóvizi Petra",
+        5: "Csíkos Luca",
+        7: "Kukely Anna",
+        8: "Juhász Kata",
+        10: "Faragó Lea",
+        17: "Falusi-Udvardi Laura",
+        19: "Márton Gréta",
+        20: "Szmolek Apollónia",
+        28: "Papp Nikoletta",
+        31: "Szemerey Zsófi",
+        38: "Vámos Petra",
+        42: "Klujber Katrin",
+        59: "Kuczora Csenge",
+        61: "Janurik Kinga",
+        71: "Petrus Mirtill",
+        74: "Bukovszky Anna",
+        77: "Simon Petra",
+        88: "Grosch Vivien"
     },
     guest: {
-        2: "Varju Benedek",
-        3: "Szépe János",
-        4: "Ilia Beriashvili",
-        6: "Kata Mihály",
-        7: "Molnár Ádin",
-        8: "Németh Hunor",
-        10: "Bognár István",
-        11: "Marin Jurina",
-        12: "Bene Domonkos",
-        14: "Horváth Artúr",
-        15: "Széles Imre",
-        17: "Róbert Polievka",
-        18: "Németh Krisztián",
-        20: "Kerezsi Zalán",
-        21: "Átrok István Zalán",
-        23: "Jakub Plsek",
-        24: "Fadgyas Tamás",
-        25: "Kádár Tamás",
-        26: "Vilius Armalas",
-        27: "Kovács Patrik",
-        29: "Balázs József",
-        30: "Vitályos Viktor",
-        39: "Jurek Gábor",
-        47: "Hegyi Krisztián",
-        80: "Adrian Zeljkovic"
+        4: "Kristyna Königová",
+        8: "Simona Schreibmeierová",
+        17: "Karolína Pejsová",
+        21: "Denisa Holenáková",
+        22: "Markéta Sustácková",
+        23: "Marie Poláková",
+        24: "Eliska Desortová",
+        27: "Patricie Wizurová",
+        32: "Natálie Kuxová",
+        34: "Julie Franková",
+        35: "Valerie Smetková",
+        37: "Michaela Malá",
+        38: "Anna Franková",
+        43: "Veronika Holecková",
+        44: "Dominika Zachová",
+        48: "Sára Kovárová",
+        67: "Veronika Kafka Malá",
+        68: "Anna Kubálková",
+        88: "Klára Kubálková"
     }
 }
 
