@@ -5,7 +5,7 @@ let finalText = document.querySelector('#final-text')
 let copyBtn = document.querySelector('.copy-btn')
 let resetBtn = document.querySelector('.reset-btn')
 
-let defaultText = `Xh (b) és a cseh Yg a női kézilabda Eurokupa hatodik, utolsó fordulójában játszott Magyarország - Csehország mérkőzésen az Érd Arénában 2026. április 11-én. `
+let defaultText = `Xh (b) és az észak-macedón Yg a női labdarúgó világbajnoki selejtező C divízió 3. csoport 4. fordulójában játszott Magyarország - Észak-Macedónia mérkőzésen a felcsúti Pancho Arénában 2026. április 18-án. `
 
 inputText.value = defaultText
 
@@ -16,45 +16,54 @@ resetBtn.addEventListener('click', () => {
 
 let csapatok = {
     home: {
-        4: "Tóvizi Petra",
-        5: "Csíkos Luca",
-        7: "Kukely Anna",
-        8: "Juhász Kata",
-        10: "Faragó Lea",
-        17: "Falusi-Udvardi Laura",
-        19: "Márton Gréta",
-        20: "Szmolek Apollónia",
-        28: "Papp Nikoletta",
-        31: "Szemerey Zsófi",
-        38: "Vámos Petra",
-        42: "Klujber Katrin",
-        59: "Kuczora Csenge",
-        61: "Janurik Kinga",
-        71: "Petrus Mirtill",
-        74: "Bukovszky Anna",
-        77: "Simon Petra",
-        88: "Grosch Vivien"
+        1: "Lauren Brzykcy",
+        2: "Zágonyi Barbara",
+        3: "Palakovics Laura",
+        4: "Pusztai Sára",
+        5: "Pápai Emőke",
+        6: "Fenyvesi Evelin",
+        7: "Csiszár Henrietta",
+        8: "Nagy Vanessza",
+        9: "Savanya Csilla",
+        10: "Csiki Anna",
+        11: "Nagy Virág",
+        12: "Erős Evelin",
+        13: "Nagy Viktória",
+        14: "Pataki Georgina",
+        15: "Kaján Zsanett",
+        16: "Csányi Diána",
+        17: "Mayer Zsófia",
+        18: "Kovács Laura",
+        19: "Nagy Lili",
+        20: "Süle Dora",
+        21: "Nagy Fanni",
+        22: "Terestyényi Anna",
+        23: "Németh Hanna"
     },
     guest: {
-        4: "Kristyna Königová",
-        8: "Simona Schreibmeierová",
-        17: "Karolína Pejsová",
-        21: "Denisa Holenáková",
-        22: "Markéta Sustácková",
-        23: "Marie Poláková",
-        24: "Eliska Desortová",
-        27: "Patricie Wizurová",
-        32: "Natálie Kuxová",
-        34: "Julie Franková",
-        35: "Valerie Smetková",
-        37: "Michaela Malá",
-        38: "Anna Franková",
-        43: "Veronika Holecková",
-        44: "Dominika Zachová",
-        48: "Sára Kovárová",
-        67: "Veronika Kafka Malá",
-        68: "Anna Kubálková",
-        88: "Klára Kubálková"
+        1: "Viktorija Panchurova",
+        2: "Iva Jovanoska",
+        3: "Ane Bošeska",
+        4: "Katerina Petkova",
+        5: "Pavlinka Nikolovska",
+        6: "Mila Paneva",
+        7: "Melanija Grozdanova",
+        8: "Aleksandra Markovska",
+        9: "Ulza Maksuti",
+        10: "Teona Galabovska",
+        11: "Hava Mustafa",
+        12: "Berna Kabakchi",
+        13: "Jovana Pavlovska",
+        14: "Eva Velichkova",
+        15: "Elena Paneska",
+        16: "Slagjana Gjorgjieva",
+        17: "Lora Sulejmani",
+        18: "Biljana Paneska",
+        19: "Shkjipe Saliji",
+        20: "Rabija Dervishi",
+        21: "Bojana Petkova",
+        22: "Evgenija Veljanovska",
+        23: "Melani Cvetkovik"
     }
 }
 
