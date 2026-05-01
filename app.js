@@ -5,7 +5,7 @@ let finalText = document.querySelector('#final-text')
 let copyBtn = document.querySelector('.copy-btn')
 let resetBtn = document.querySelector('.reset-btn')
 
-let defaultText = `Xh (b) és az észak-macedón Yg a női labdarúgó világbajnoki selejtező C divízió 3. csoport 4. fordulójában játszott Magyarország - Észak-Macedónia mérkőzésen a felcsúti Pancho Arénában 2026. április 18-án. `
+let defaultText = `Xh, a Tatabánya (b) és Yg, az RK Izvidac játékosa a férfi kézilabda Európa Kupa elődöntőjének visszavágó mérkőzésén a Tatabányai Multifunkciós Csarnokban 2026. május 1-jén. `
 
 inputText.value = defaultText
 
